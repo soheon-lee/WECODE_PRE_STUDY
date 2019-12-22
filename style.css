@@ -1,0 +1,72 @@
+/* *{
+  border:solid;
+} */
+.mainImg{
+     position: relative;
+     background-image: url(mainPhoto.jpg);
+     height: 100vh;
+     background-size: cover;
+ }
+ .img-cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* z-index:2; */
+ }
+
+.mainImag .socialList{
+  position: absolute;
+  /* top: 50%; */
+  /* left: 10%; */
+  /* text-align: left; */
+  /* z-index: 3; */
+}
+.socialLogo{
+  position: absolute;
+  left:90%;
+  height: 30px;
+}
+
+#instaIcon{
+  margin-top: 10px;
+}
+#gMailIcon{
+  margin-top: 50px;
+}
+#hobbies, #stacks{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#content1{
+  background-color: rgba(100, 0, 150, 0.2);
+}
+#demo{
+  font-size: 50px;
+  text-shadow: 2px 2px 2px gray;
+
+}
+#content2{
+  background-color: rgba(0, 0, 255, 0.2);
+}
+#content3{
+  background-color: rgba(0, 100, 200, 0.2);
+}
+li{
+  list-style-type:none;
+}
+#secondPage{
+  text-align: center;
+}
+ .mainImg .content{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-80%,-50%);
+   font-size:4rem;
+   color: white;
+   border: solid white;
+   padding: 40px;
+   /* z-index: 3; */
+   /* text-align: left; */
+ }
